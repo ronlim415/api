@@ -8,9 +8,11 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
     </head>
     <body>
       <div class="navbar">
-        <a href="index.php?navigation=product">Products</a>
-        <a href="index.php?navigation=categories">Category</a>
-        <a href="index.php?navigation=create">Create</a>
+        <ul>
+            <li><a href="index.php?navigation=product">Products</a></li>
+            <li><a href="index.php?navigation=categories">Category</a></li>
+            <li><a href="index.php?navigation=create">Create</a></li>
+          </ul>
       </div>
 
       <div>         
