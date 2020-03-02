@@ -1,5 +1,5 @@
 body {
-  background-color: #008080;
+  background-color: #1d7874;
 }
 ul {
 	
@@ -7,7 +7,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ff3715;
+  background-color: #ee2e31;
 }
 
 li {
@@ -23,7 +23,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #db75c5;
+  background-color: #e38732;
 }
 table {
   border-collapse: collapse;
@@ -35,10 +35,10 @@ th, td {
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #fff1e9}
+tr:nth-child(even){background-color: #679289}
 
 th {
-  background-color: #6a1051;
+  background-color: #f4c095;
   color: white;
 }
 h1 {
@@ -52,10 +52,10 @@ th, td {
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #fff1e9}
+tr:nth-child(even){background-color: #679289}
 
 th {
-  background-color: #6a1051;
+  background-color: #f4c095;
   color: white;
 }
 h1 {
