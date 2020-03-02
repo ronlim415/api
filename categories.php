@@ -6,7 +6,7 @@ $list = $data['records'];
 
 
 ?>
-
+ <link rel="stylesheet" type="text/css" href="css/style.css">
 <h1> Category list </h1>
 
 <table>
@@ -25,4 +25,3 @@ foreach($list as $value){
 }
     ?>
 </table>
-
