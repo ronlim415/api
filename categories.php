@@ -6,7 +6,7 @@ $list = $data['records'];
 
 
 ?>
- <link rel="stylesheet" type="text/css" href="css/style.css">
+ <link rel="stylesheet" type="text/css" href="style.css">
 <h1> Category list </h1>
 
 <table>
