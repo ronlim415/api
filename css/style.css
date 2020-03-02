@@ -7,7 +7,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FF8C00;
+  background-color: #ff3715;
 }
 
 li {
@@ -60,12 +60,12 @@ th {
 }
 h1 {
 	text-align: center;
-.footer {
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: #ff3715;
   color: white;
   text-align: center;
 }
