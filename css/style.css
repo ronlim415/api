@@ -60,3 +60,10 @@ th {
 }
 h1 {
 	text-align: center;
+	
+ @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
