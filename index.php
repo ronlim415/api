@@ -7,7 +7,7 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
       <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-       <div id = "contaner">
+       <div id = "container">
       <div class="navbar">
         <ul>
             <li><a href="index.php?navigation=product">Products</a></li>
