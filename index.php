@@ -16,7 +16,7 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
           </ul>
       </div>
 
-      <div>         
+      <div id = "content">         
       <?php 
         switch($navigation){
           case 'product':
