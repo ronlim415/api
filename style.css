@@ -1,6 +1,10 @@
 body {
   background-color: #1d7874;
 }
+#container{
+	width:1024px;
+	min-height:700px;
+}
 ul {
 	
   list-style-type: none;
