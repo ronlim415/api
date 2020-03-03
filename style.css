@@ -6,6 +6,10 @@ body {
 	margin: 0 auto;
 	min-height:700px;
 }
+#content{
+	width:100%;
+	min-height: 900px;
+}
 ul {
 	
   list-style-type: none;
