@@ -3,6 +3,7 @@ body {
 }
 #container{
 	width:1024px;
+	margin: 0 auto;
 	min-height:700px;
 }
 ul {
