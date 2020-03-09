@@ -21,7 +21,7 @@
 	<br><input type="text" name="description" value="<?php echo $result['description']; ?>"/><br>
 	<br><input type="text" name="price" value="<?php echo $result['price']; ?>"/><br>
 	<br><select name="category"><br>
-	<option value="<?php echo $result['id'];?>"><?php echo $result['name'];?></option>
+	<option value="<?php echo $result['id'];?>"><?php echo $result['category_name'];?></option>
 		<?php
 		foreach($category as $cview){
 		?>
