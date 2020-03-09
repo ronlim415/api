@@ -22,6 +22,9 @@ if(isset($_POST['search'])){
 	Search:<input type="text" name="search" placeholder="Enter Product Name">
 		<input type="submit" name="submit" value="Search">
 	</form>
+<div class = "option">
+	<a href="index.php?navigation=create">Add product</a>
+	</div>
 
 <table>
     <tr>
