@@ -5,10 +5,12 @@ body {
 	width:1024px;
 	margin: 0 auto;
 	min-height:700px;
+	border: 1px solid black;
 }
 #content{
 	width:100%;
 	min-height: 900px;
+	border: 1px solid black;
 }
 ul {
 	
