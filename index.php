@@ -12,6 +12,7 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
         <ul>
             <li><a href="index.php?navigation=product">Products</a></li>
             <li><a href="index.php?navigation=categories">Category</a></li>
+            <li><a href="index.php?navigation=index">Home</a></li>
           </ul>
       </div>
 
@@ -33,6 +34,9 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
            case 'update';
             require_once 'form_update.php';
              break;
+           case 'index';
+               require_once 'index.php';
+               break;
         }
     ?>
       </div>
