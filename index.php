@@ -10,9 +10,9 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
        <div id = "container">
       <div class="navbar">
         <ul>
+            <li><a href="index.php?navigation=index">Home</a></li>
             <li><a href="index.php?navigation=product">Products</a></li>
             <li><a href="index.php?navigation=categories">Category</a></li>
-            <li><a href="index.php?navigation=index">Home</a></li>
           </ul>
       </div>
 
