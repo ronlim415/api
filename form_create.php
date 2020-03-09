@@ -7,6 +7,7 @@
 
 <h1> Create Product </h1>
 
+<div class = "flex-container">
 <form action="pro_create.php" method="POST">
 <input type="text" name="name" placeholder="name"/>
 <input type="text" name="description" placeholder="description"/>
@@ -24,3 +25,4 @@
 <input type="submit" name="submit" value="submit"/>
 
 </form>
+</div>
