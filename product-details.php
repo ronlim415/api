@@ -18,9 +18,9 @@ $value = $list;
 <table>
     <tr>
         <br>Product:<?php echo $value['name'];?></br>
-        <br>Description:<?php echo $value['name'];?></br>
-        <br>Price:<?php echo $value['name'];?></br>
-        <br>Category ID:<?php echo $value['name'];?></br>
+        <br>Description:<?php echo $value['description'];?></br>
+        <br>Price:<?php echo $value['price'];?></br>
+        <br>Category ID:<?php echo $value['id'];?></br>
         <a href="index.php?navigation=update&id=<?php echo $id ?>"><button>Update</button></a>
         <a href="pro_delete.php?id=<?php echo $id ?>"><button>Delete</button></a>
     </tr>
