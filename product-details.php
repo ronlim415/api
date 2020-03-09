@@ -15,7 +15,7 @@ $value = $list;
     
 <h1> Product Details </h1>
     
-   <div class = "wew">
+   <div class = "flex-container">
         <br>Product:<?php echo $value['name'];?></br>
         <br>Description:<?php echo $value['description'];?></br>
         <br>Price:<?php echo $value['price'];?></br>
