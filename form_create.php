@@ -8,11 +8,11 @@
 <h1> Create Product </h1>
 
 <div class = "flex-container">
-<form action="pro_create.php" method="POST">
-<input type="text" name="name" placeholder="name"/>
-<input type="text" name="description" placeholder="description"/>
-<input type="text" name="price" placeholder="price"/>
-<select name="category">
+	<br><form action="pro_create.php" method="POST"></br>
+	<br><input type="text" name="name" placeholder="name"/></br>
+	<br><input type="text" name="description" placeholder="description"/><br>
+	<br><input type="text" name="price" placeholder="price"/></br>
+<br><select name="category"></br>
 <option value="">--Category--</option>
 	<?php
       foreach($category as $cview){
