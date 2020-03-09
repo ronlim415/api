@@ -17,10 +17,10 @@ $value = $list;
 
 <table>
     <tr>
-        <td>Product</td>
-        <td>Description</td>
-        <td>Price</td>
-        <td>Category ID</td>
+        <th>Product</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Category ID</th>
     </tr>
 
     <tr>
