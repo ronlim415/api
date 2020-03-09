@@ -3,7 +3,7 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
 ?>
 <html> 
     <head>
-      <title>ACT1 Endterm</title>
+      <title>Lim-Activity1-endterm</title>
       <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
