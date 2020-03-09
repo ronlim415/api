@@ -23,7 +23,7 @@ if(isset($_POST['search'])){
 		<input type="submit" name="submit" value="Search">
 	</form>
 <div class = "option">
-	<a href="index.php?navigation=create">Add product</a>
+	<a href="index.php?navigation=create"><button>Add product</button></a>
 	</div>
 
 <table>
