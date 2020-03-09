@@ -81,3 +81,7 @@ table, th, tr{
 footer{
 	display: block;
 }
+.flex-container{
+	display: flex;
+	justify-content: center;
+}
