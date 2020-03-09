@@ -17,19 +17,12 @@ $value = $list;
 
 <table>
     <tr>
-        <th>Product</th>
-        <th>Description</th>
-        <th>Price</th>
-        <th>Category ID</th>
-    </tr>
-
-    <tr>
-        <td><?php echo $value['name'];?></td>
-        <td><?php echo $value['description'];?></td>
-        <td><?php echo $value['price'];?></td>
-        <td><?php echo $value['id'];?></td>
-        <td><a href="index.php?navigation=update&id=<?php echo $id ?>">Update</a></td>
-        <td><a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></td>
+        <th>Product:<?php echo $value['name'];?></th>
+        <th>Description:<?php echo $value['name'];?></th>
+        <th>Price:<?php echo $value['name'];?></th>
+        <th>Category ID:<?php echo $value['name'];?></th>
+        <a href="index.php?navigation=update&id=<?php echo $id ?>"><button>Update</button></a>
+        <a href="pro_delete.php?id=<?php echo $id ?>"><button>Delete</button></a>
     </tr>
 
 </table>
