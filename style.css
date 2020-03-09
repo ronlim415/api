@@ -70,7 +70,7 @@ th {
   color: white;
 }
 h1 {
-	text-align: left;
+	text-align: center;
  }
 table {
 	border-collapse: collapse;
@@ -83,6 +83,6 @@ footer{
 }
 .flex-container{
 	display: flex;
-	flex-direction:column;
+	justify-content: center;
 	height: 20px;
 }
