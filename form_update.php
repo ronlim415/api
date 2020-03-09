@@ -14,13 +14,6 @@
       <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
-
-    <div class="navbar">
-        <a href="index.php?navigation=product">Show</a>
-        <a href="index.php?navigation=categories">Category</a>
-        <a href="index.php?navigation=create">Create</a>
-        <a href="index.php?navigation=delete">Delete</a>
-    </div>
 	<h1> Update Product </h1>
 <form action="pro_update.php?id=<?php echo $id ?>" method="POST">
 	<input type="text" name="name" value="<?php echo $result['name'];?>"/>
