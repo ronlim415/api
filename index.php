@@ -12,7 +12,6 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
         <ul>
             <li><a href="index.php?navigation=product">Products</a></li>
             <li><a href="index.php?navigation=categories">Category</a></li>
-            <li><a href="index.php?navigation=create">Create</a></li>
           </ul>
       </div>
 
