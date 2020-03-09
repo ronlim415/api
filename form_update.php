@@ -15,6 +15,7 @@
     </head>
 
 	<h1> Update Product </h1>
+	 <div class = "flex-container">
 <form action="pro_update.php?id=<?php echo $id ?>" method="POST">
 	<input type="text" name="name" value="<?php echo $result['name'];?>"/>
 	<input type="text" name="description" value="<?php echo $result['description']; ?>"/>
@@ -32,6 +33,7 @@
 	<input type="submit" name="submit" value="submit"/>
 
 </form>
+	</div>
 
 <div class="footer">
         <h2>Footer</h2>
