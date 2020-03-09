@@ -13,7 +13,7 @@ $value = $list;
       <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     
-<h1> Product Details </h1>
+        <h1> Product Details </h1>
     
    <div class = "flex-container">
         <br>Product:<?php echo $value['name'];?></br>
