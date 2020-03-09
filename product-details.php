@@ -25,10 +25,10 @@ $value = $list;
 
 <table>
     <tr>
-        <br>Product</br>
-        <br>Description</br>
-        <br>Price</br>
-        <br>Category ID</br>
+        <td>Product</td>
+        <td>Description</td>
+        <td>Price</br>
+        <td>Category ID</td>
     </tr>
 
     <tr>
